@@ -1,0 +1,46 @@
+PODS:
+  - MKGradientView (2.0.2)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxGesture (4.0.2):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SwiftGen (6.4.0)
+  - XCoordinator (2.0.7):
+    - XCoordinator/Core (= 2.0.7)
+  - XCoordinator/Core (2.0.7)
+
+DEPENDENCIES:
+  - MKGradientView
+  - RxCocoa
+  - RxGesture
+  - RxSwift
+  - SwiftGen
+  - XCoordinator
+
+SPEC REPOS:
+  trunk:
+    - MKGradientView
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SwiftGen
+    - XCoordinator
+
+SPEC CHECKSUMS:
+  MKGradientView: 3ba213002a8258d96d098188655596c5f35ab659
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxGesture: f059f2aeef966fb17dad56ee440e76410f10e55f
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
+  XCoordinator: 9ee654fedef1ffede33d5c11677708a555c00542
+
+PODFILE CHECKSUM: c1f444e7cf36f3cfd54a7523e259206225abba35
+
+COCOAPODS: 1.11.2
