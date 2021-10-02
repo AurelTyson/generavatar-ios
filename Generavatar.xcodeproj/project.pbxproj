@@ -16,6 +16,11 @@
 		7407E7D7270879DA005B34D5 /* GeneravatarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E7D6270879DA005B34D5 /* GeneravatarTests.swift */; };
 		7407E7E1270879DA005B34D5 /* GeneravatarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E7E0270879DA005B34D5 /* GeneravatarUITests.swift */; };
 		7407E7E3270879DA005B34D5 /* GeneravatarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E7E2270879DA005B34D5 /* GeneravatarUITestsLaunchTests.swift */; };
+		7407E7F427087DCF005B34D5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7407E7F127087DCF005B34D5 /* Localizable.strings */; };
+		7407E7FB27087EA8005B34D5 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E7FA27087EA8005B34D5 /* Assets.swift */; };
+		7407E7FD27087EB0005B34D5 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E7FC27087EB0005B34D5 /* Strings.swift */; };
+		7407E80027087EFC005B34D5 /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E7FF27087EFC005B34D5 /* BindableType.swift */; };
+		7407E80227087F14005B34D5 /* NibIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E80127087F14005B34D5 /* NibIdentifiable.swift */; };
 		A249F6A15E8DB7A1355C14FE /* Pods_GeneravatarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2C77B2D8259479AC232538 /* Pods_GeneravatarTests.framework */; };
 		B6367229FCF6D1033435BC7A /* Pods_Generavatar_GeneravatarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B116E9649D7B10D9CA3D162E /* Pods_Generavatar_GeneravatarUITests.framework */; };
 		EDCE61243A8D5A613B1D5D0D /* Pods_Generavatar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D755455EF9D0C31CFE765832 /* Pods_Generavatar.framework */; };
@@ -56,6 +61,12 @@
 		7407E7DC270879DA005B34D5 /* GeneravatarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneravatarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7407E7E0270879DA005B34D5 /* GeneravatarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneravatarUITests.swift; sourceTree = "<group>"; };
 		7407E7E2270879DA005B34D5 /* GeneravatarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneravatarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7407E7F227087DCF005B34D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7407E7F527087DED005B34D5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7407E7FA27087EA8005B34D5 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		7407E7FC27087EB0005B34D5 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		7407E7FF27087EFC005B34D5 /* BindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
+		7407E80127087F14005B34D5 /* NibIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibIdentifiable.swift; sourceTree = "<group>"; };
 		8D2C77B2D8259479AC232538 /* Pods_GeneravatarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeneravatarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23071170577BE279D52E821 /* Pods-Generavatar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generavatar.debug.xcconfig"; path = "Target Support Files/Pods-Generavatar/Pods-Generavatar.debug.xcconfig"; sourceTree = "<group>"; };
 		B116E9649D7B10D9CA3D162E /* Pods_Generavatar_GeneravatarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Generavatar_GeneravatarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,11 +127,12 @@
 		7407E7BE270879D5005B34D5 /* Generavatar */ = {
 			isa = PBXGroup;
 			children = (
+				7407E7F827087E90005B34D5 /* Classes */,
+				7407E7EF27087DC3005B34D5 /* Resources */,
 				7407E7BF270879D5005B34D5 /* AppDelegate.swift */,
 				7407E7C1270879D5005B34D5 /* SceneDelegate.swift */,
 				7407E7C3270879D5005B34D5 /* ViewController.swift */,
 				7407E7C5270879D5005B34D5 /* Main.storyboard */,
-				7407E7C8270879D9005B34D5 /* Assets.xcassets */,
 				7407E7CA270879D9005B34D5 /* LaunchScreen.storyboard */,
 				7407E7CD270879D9005B34D5 /* Info.plist */,
 			);
@@ -142,6 +154,50 @@
 				7407E7E2270879DA005B34D5 /* GeneravatarUITestsLaunchTests.swift */,
 			);
 			path = GeneravatarUITests;
+			sourceTree = "<group>";
+		};
+		7407E7EF27087DC3005B34D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7407E7F027087DCF005B34D5 /* Strings */,
+				7407E7C8270879D9005B34D5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7407E7F027087DCF005B34D5 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				7407E7F127087DCF005B34D5 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		7407E7F827087E90005B34D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7407E7F927087E97005B34D5 /* Generated */,
+				7407E7FE27087EF0005B34D5 /* Utils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7407E7F927087E97005B34D5 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				7407E7FA27087EA8005B34D5 /* Assets.swift */,
+				7407E7FC27087EB0005B34D5 /* Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		7407E7FE27087EF0005B34D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7407E7FF27087EFC005B34D5 /* BindableType.swift */,
+				7407E80127087F14005B34D5 /* NibIdentifiable.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		D82DCE55916558B031567787 /* Pods */ = {
@@ -175,6 +231,7 @@
 			buildConfigurationList = 7407E7E6270879DA005B34D5 /* Build configuration list for PBXNativeTarget "Generavatar" */;
 			buildPhases = (
 				0ABFBE8340808133553A64E1 /* [CP] Check Pods Manifest.lock */,
+				7407E7F727087E67005B34D5 /* SwiftGen */,
 				7407E7B8270879D5005B34D5 /* Sources */,
 				7407E7B9270879D5005B34D5 /* Frameworks */,
 				7407E7BA270879D5005B34D5 /* Resources */,
@@ -258,6 +315,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 7407E7B3270879D5005B34D5;
 			productRefGroup = 7407E7BD270879D5005B34D5 /* Products */;
@@ -277,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7407E7CC270879D9005B34D5 /* LaunchScreen.storyboard in Resources */,
+				7407E7F427087DCF005B34D5 /* Localizable.strings in Resources */,
 				7407E7C9270879D9005B34D5 /* Assets.xcassets in Resources */,
 				7407E7C7270879D5005B34D5 /* Main.storyboard in Resources */,
 			);
@@ -360,6 +419,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7407E7F727087E67005B34D5 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
+		};
 		8C3B875F4807C8C8E6631DFE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,7 +484,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7407E7C4270879D5005B34D5 /* ViewController.swift in Sources */,
+				7407E80227087F14005B34D5 /* NibIdentifiable.swift in Sources */,
 				7407E7C0270879D5005B34D5 /* AppDelegate.swift in Sources */,
+				7407E7FD27087EB0005B34D5 /* Strings.swift in Sources */,
+				7407E7FB27087EA8005B34D5 /* Assets.swift in Sources */,
+				7407E80027087EFC005B34D5 /* BindableType.swift in Sources */,
 				7407E7C2270879D5005B34D5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +540,15 @@
 				7407E7CB270879D9005B34D5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7407E7F127087DCF005B34D5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7407E7F227087DCF005B34D5 /* en */,
+				7407E7F527087DED005B34D5 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

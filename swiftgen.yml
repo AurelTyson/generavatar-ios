@@ -1,0 +1,11 @@
+strings:
+  inputs: Generavatar/Resources/Strings/fr.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: Generavatar/Classes/Generated/Strings.swift
+xcassets:
+  inputs:
+    - Generavatar/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: Generavatar/Classes/Generated/Assets.swift
