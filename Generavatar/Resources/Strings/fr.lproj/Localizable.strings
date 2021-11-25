@@ -5,3 +5,7 @@
  Created by Aurélien Tison on 02/10/2021.
  
  */
+
+"avatar.title" = "Avatar";
+"avatar.change_gradient" = "Change gradient";
+"avatar.save_avatar" = "Save avatar";

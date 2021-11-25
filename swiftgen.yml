@@ -5,7 +5,7 @@ strings:
       output: Generavatar/Classes/Generated/Strings.swift
 xcassets:
   inputs:
-    - Generavatar/Assets.xcassets
+    - Generavatar/Resources/Assets.xcassets
   outputs:
     - templateName: swift5
       output: Generavatar/Classes/Generated/Assets.swift

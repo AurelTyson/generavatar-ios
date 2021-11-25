@@ -21,6 +21,10 @@
 		7407E7FD27087EB0005B34D5 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E7FC27087EB0005B34D5 /* Strings.swift */; };
 		7407E80027087EFC005B34D5 /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E7FF27087EFC005B34D5 /* BindableType.swift */; };
 		7407E80227087F14005B34D5 /* NibIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E80127087F14005B34D5 /* NibIdentifiable.swift */; };
+		7407E805270881B1005B34D5 /* MainNavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E804270881B1005B34D5 /* MainNavigationCoordinator.swift */; };
+		7407E8092708821D005B34D5 /* AvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E8072708821D005B34D5 /* AvatarViewController.swift */; };
+		7407E80A2708821D005B34D5 /* AvatarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7407E8082708821D005B34D5 /* AvatarViewController.xib */; };
+		7407E80C27088242005B34D5 /* AvatarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407E80B27088242005B34D5 /* AvatarViewModel.swift */; };
 		A249F6A15E8DB7A1355C14FE /* Pods_GeneravatarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2C77B2D8259479AC232538 /* Pods_GeneravatarTests.framework */; };
 		B6367229FCF6D1033435BC7A /* Pods_Generavatar_GeneravatarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B116E9649D7B10D9CA3D162E /* Pods_Generavatar_GeneravatarUITests.framework */; };
 		EDCE61243A8D5A613B1D5D0D /* Pods_Generavatar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D755455EF9D0C31CFE765832 /* Pods_Generavatar.framework */; };
@@ -67,6 +71,10 @@
 		7407E7FC27087EB0005B34D5 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		7407E7FF27087EFC005B34D5 /* BindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
 		7407E80127087F14005B34D5 /* NibIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibIdentifiable.swift; sourceTree = "<group>"; };
+		7407E804270881B1005B34D5 /* MainNavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationCoordinator.swift; sourceTree = "<group>"; };
+		7407E8072708821D005B34D5 /* AvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewController.swift; sourceTree = "<group>"; };
+		7407E8082708821D005B34D5 /* AvatarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvatarViewController.xib; sourceTree = "<group>"; };
+		7407E80B27088242005B34D5 /* AvatarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewModel.swift; sourceTree = "<group>"; };
 		8D2C77B2D8259479AC232538 /* Pods_GeneravatarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeneravatarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23071170577BE279D52E821 /* Pods-Generavatar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Generavatar.debug.xcconfig"; path = "Target Support Files/Pods-Generavatar/Pods-Generavatar.debug.xcconfig"; sourceTree = "<group>"; };
 		B116E9649D7B10D9CA3D162E /* Pods_Generavatar_GeneravatarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Generavatar_GeneravatarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +184,8 @@
 		7407E7F827087E90005B34D5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7407E8062708820B005B34D5 /* Controllers */,
+				7407E80327088161005B34D5 /* Coordinators */,
 				7407E7F927087E97005B34D5 /* Generated */,
 				7407E7FE27087EF0005B34D5 /* Utils */,
 			);
@@ -198,6 +208,32 @@
 				7407E80127087F14005B34D5 /* NibIdentifiable.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		7407E80327088161005B34D5 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				7407E804270881B1005B34D5 /* MainNavigationCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		7407E8062708820B005B34D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7407E80D27088537005B34D5 /* Avatar */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7407E80D27088537005B34D5 /* Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				7407E8072708821D005B34D5 /* AvatarViewController.swift */,
+				7407E8082708821D005B34D5 /* AvatarViewController.xib */,
+				7407E80B27088242005B34D5 /* AvatarViewModel.swift */,
+			);
+			path = Avatar;
 			sourceTree = "<group>";
 		};
 		D82DCE55916558B031567787 /* Pods */ = {
@@ -334,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7407E80A2708821D005B34D5 /* AvatarViewController.xib in Resources */,
 				7407E7CC270879D9005B34D5 /* LaunchScreen.storyboard in Resources */,
 				7407E7F427087DCF005B34D5 /* Localizable.strings in Resources */,
 				7407E7C9270879D9005B34D5 /* Assets.xcassets in Resources */,
@@ -486,8 +523,11 @@
 				7407E7C4270879D5005B34D5 /* ViewController.swift in Sources */,
 				7407E80227087F14005B34D5 /* NibIdentifiable.swift in Sources */,
 				7407E7C0270879D5005B34D5 /* AppDelegate.swift in Sources */,
+				7407E805270881B1005B34D5 /* MainNavigationCoordinator.swift in Sources */,
 				7407E7FD27087EB0005B34D5 /* Strings.swift in Sources */,
+				7407E8092708821D005B34D5 /* AvatarViewController.swift in Sources */,
 				7407E7FB27087EA8005B34D5 /* Assets.swift in Sources */,
+				7407E80C27088242005B34D5 /* AvatarViewModel.swift in Sources */,
 				7407E80027087EFC005B34D5 /* BindableType.swift in Sources */,
 				7407E7C2270879D5005B34D5 /* SceneDelegate.swift in Sources */,
 			);
